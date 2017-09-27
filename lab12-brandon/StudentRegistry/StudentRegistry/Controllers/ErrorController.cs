@@ -7,5 +7,9 @@ namespace StudentRegistry.Controllers
 {
     public class ErrorController
     {
+        public string Error()
+        {
+            return "Something has gone wrong! Please contact support.";
+        }
     }
 }
