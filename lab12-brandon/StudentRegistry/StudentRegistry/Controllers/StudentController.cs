@@ -12,7 +12,13 @@ namespace StudentRegistry.Controllers
     {
         public ViewResult Register(string name, int age, int course)
         {
-            return View();
+            Student student = new Student
+            {
+                Name = name,
+                Age = age,
+                Course = course
+            };
+            return View(student);
         }
 
         public ViewResult ViewAll()
