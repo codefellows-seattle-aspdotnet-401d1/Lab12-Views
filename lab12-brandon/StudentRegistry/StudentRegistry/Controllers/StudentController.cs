@@ -1,22 +1,21 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace StudentRegistry.Controllers
 {
-    public class StudentController
+    public class StudentController : Controller
     {
-        StudentRegistry registry = new StudentRegistry();
-
-        public string Register(string name, int age, int course)
+        public ViewResult Register(string name, int age, int course)
         {
-            return registry.RegisterStudent(name, age, course);
+            return View();
         }
 
-        public string ViewAll()
+        public ViewResult ViewAll()
         {
-            return registry.ShowStudents();
+            return View();
         }
 
         public string Error()
