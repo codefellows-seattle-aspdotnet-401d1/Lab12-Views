@@ -1,7 +1,7 @@
 ﻿@using StudentRegistry.ViewModels
+@model Student
 @{
-    var student = ViewData["student"] as Student;
 }
 
 <link rel="stylesheet" href="~/css/app.css" type="text/css" />
-<h2>@student.Name was successfully registered.</h2>
+<h2>@Model.Name was successfully registered.</h2>
