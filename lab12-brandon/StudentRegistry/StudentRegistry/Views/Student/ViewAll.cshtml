@@ -1,0 +1,16 @@
+﻿@using StudentRegistry.ViewModels
+@model List<StudentRegistry.ViewModels.Student>
+@{
+}
+<link rel="stylesheet" href="~/css/app.css" type="text/css" />
+<h1>List of all students:</h1>
+<div>
+
+    @foreach (var s in Model)
+    {
+        <h2>@s.Name</h2>
+        <p>Course: @s.Course</p>
+        <p>Age: @s.Age</p>
+    }
+
+</div>
