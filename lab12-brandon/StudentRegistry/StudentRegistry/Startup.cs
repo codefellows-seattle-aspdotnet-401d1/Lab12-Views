@@ -29,6 +29,7 @@ namespace StudentRegistry
             {
                 app.UseExceptionHandler("/Error/Error");
             }
+            app.UseStaticFiles();
 
             app.UseMvc(route => {
             route.MapRoute(
@@ -37,10 +38,10 @@ namespace StudentRegistry
                 );
             });
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            //app.Run(async (context) =>
+            //{
+            //    await context.Response.WriteAsync("Hello World!");
+            //});
         }
     }
 }
