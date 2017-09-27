@@ -3,7 +3,14 @@
     text-align: center;
 }
 
-p{
+div {
+    text-align: left;
+}
+
+h1 {
+    color: darkslateblue;
+}
+
+p {
     color: darkred;
-    text-align: center;
 }
