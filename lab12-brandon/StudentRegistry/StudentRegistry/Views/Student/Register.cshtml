@@ -1,5 +1,7 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using StudentRegistry.ViewModels
 @{
+    var student = ViewData["student"] as Student;
 }
+
+<link rel="stylesheet" href="~/css/app.css" type="text/css" />
+<h2>@student.Name was successfully registered.</h2>
