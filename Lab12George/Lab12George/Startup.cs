@@ -30,6 +30,10 @@ namespace Lab12George
             {
                 app.UseExceptionHandler("/Error");
             }
+            // added default files
+            app.UseDefaultFiles();
+            // added static files
+            app.UseStaticFiles();
             //added MVC to configuration
             app.UseMvc(route =>
             {

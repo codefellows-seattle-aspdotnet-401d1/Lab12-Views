@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Lab12George.Controllers
 {
-    public class ErrorController
+    public class ErrorController : Controller
     {
         // attribute routing replaces the routes
         [Route("Error")]
-        public ViewResult Index => View();
+        public ViewResult Index() => View();
     }
 }

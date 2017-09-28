@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lab12George.Controllers
 {
-    public class StudentsController
+    public class StudentsController : Controller
     {
-        public string Index() => "This is the student controller.";
+        public ViewResult Index() => View();
         [Route("AddStudent")]
         // This is called model binding
         public string Student(string name, int age)
