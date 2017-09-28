@@ -1,0 +1,19 @@
+﻿@using Lab12Views.ViewModels
+@model List<Lab12Views.ViewModels.Student>
+
+@{
+// var movie = ViewData["movie"] as Movie;
+//var test = ViewData["test"];
+}
+<h1>All Students</h1>
+<ul>
+
+@foreach (var s in @Model)
+{
+    <li>@s.Name</li>
+}
+
+</ul>
+
+<p>To SELECT a Student, paste: http://localhost:50858/students/selectstudent?name="STUDENT NAME HERE"</p>
+
