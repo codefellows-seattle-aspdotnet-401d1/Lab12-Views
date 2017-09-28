@@ -1,0 +1,18 @@
+﻿@using Lab12Views.ViewModels
+@model  List<Lab12Views.ViewModels.Student>
+@{
+    <link rel="stylesheet" href="~/css/App.css" type="text/css" />
+
+    <h1>Here is a list of Registered Students</h1>
+    @foreach (var s in @Model)
+    {
+        <ul>
+            <li>@s.Name</li>
+            <li>@s.Age years old</li>
+            <li>Student ID: @s.Id</li>
+            <li>Majoring in @s.Major</li>
+        </ul>
+
+    }
+
+}
