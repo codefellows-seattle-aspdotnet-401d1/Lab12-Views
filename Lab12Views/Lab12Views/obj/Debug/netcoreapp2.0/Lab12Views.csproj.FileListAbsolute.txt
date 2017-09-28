@@ -1,0 +1,11 @@
+C:\Users\Duane Rush\source\repos\Lab12-Views\Lab12Views\Lab12Views\bin\Debug\netcoreapp2.0\Lab12Views.deps.json
+C:\Users\Duane Rush\source\repos\Lab12-Views\Lab12Views\Lab12Views\bin\Debug\netcoreapp2.0\Lab12Views.runtimeconfig.json
+C:\Users\Duane Rush\source\repos\Lab12-Views\Lab12Views\Lab12Views\bin\Debug\netcoreapp2.0\Lab12Views.runtimeconfig.dev.json
+C:\Users\Duane Rush\source\repos\Lab12-Views\Lab12Views\Lab12Views\bin\Debug\netcoreapp2.0\Lab12Views.dll
+C:\Users\Duane Rush\source\repos\Lab12-Views\Lab12Views\Lab12Views\obj\Debug\netcoreapp2.0\Lab12Views.csprojResolveAssemblyReference.cache
+C:\Users\Duane Rush\source\repos\Lab12-Views\Lab12Views\Lab12Views\obj\Debug\netcoreapp2.0\Lab12Views.csproj.CoreCompileInputs.cache
+C:\Users\Duane Rush\source\repos\Lab12-Views\Lab12Views\Lab12Views\obj\Debug\netcoreapp2.0\Lab12Views.AssemblyInfoInputs.cache
+C:\Users\Duane Rush\source\repos\Lab12-Views\Lab12Views\Lab12Views\obj\Debug\netcoreapp2.0\Lab12Views.AssemblyInfo.cs
+C:\Users\Duane Rush\source\repos\Lab12-Views\Lab12Views\Lab12Views\bin\Debug\netcoreapp2.0\Lab12Views.pdb
+C:\Users\Duane Rush\source\repos\Lab12-Views\Lab12Views\Lab12Views\obj\Debug\netcoreapp2.0\Lab12Views.dll
+C:\Users\Duane Rush\source\repos\Lab12-Views\Lab12Views\Lab12Views\obj\Debug\netcoreapp2.0\Lab12Views.pdb
