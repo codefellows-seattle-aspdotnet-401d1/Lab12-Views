@@ -1,0 +1,11 @@
+C:\Users\georg\source\repos\Lab12-Views\Lab12George\Lab12George\bin\Debug\netcoreapp2.0\Lab12George.deps.json
+C:\Users\georg\source\repos\Lab12-Views\Lab12George\Lab12George\bin\Debug\netcoreapp2.0\Lab12George.runtimeconfig.json
+C:\Users\georg\source\repos\Lab12-Views\Lab12George\Lab12George\bin\Debug\netcoreapp2.0\Lab12George.runtimeconfig.dev.json
+C:\Users\georg\source\repos\Lab12-Views\Lab12George\Lab12George\bin\Debug\netcoreapp2.0\Lab12George.dll
+C:\Users\georg\source\repos\Lab12-Views\Lab12George\Lab12George\obj\Debug\netcoreapp2.0\Lab12George.csprojResolveAssemblyReference.cache
+C:\Users\georg\source\repos\Lab12-Views\Lab12George\Lab12George\obj\Debug\netcoreapp2.0\Lab12George.csproj.CoreCompileInputs.cache
+C:\Users\georg\source\repos\Lab12-Views\Lab12George\Lab12George\obj\Debug\netcoreapp2.0\Lab12George.AssemblyInfoInputs.cache
+C:\Users\georg\source\repos\Lab12-Views\Lab12George\Lab12George\obj\Debug\netcoreapp2.0\Lab12George.AssemblyInfo.cs
+C:\Users\georg\source\repos\Lab12-Views\Lab12George\Lab12George\bin\Debug\netcoreapp2.0\Lab12George.pdb
+C:\Users\georg\source\repos\Lab12-Views\Lab12George\Lab12George\obj\Debug\netcoreapp2.0\Lab12George.dll
+C:\Users\georg\source\repos\Lab12-Views\Lab12George\Lab12George\obj\Debug\netcoreapp2.0\Lab12George.pdb
