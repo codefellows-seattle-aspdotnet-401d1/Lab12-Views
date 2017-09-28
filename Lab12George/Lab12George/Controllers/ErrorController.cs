@@ -10,6 +10,6 @@ namespace Lab12George.Controllers
     {
         // attribute routing replaces the routes
         [Route("Error")]
-        public string Index() => "This is an error!";
+        public ViewResult Index => View();
     }
 }
