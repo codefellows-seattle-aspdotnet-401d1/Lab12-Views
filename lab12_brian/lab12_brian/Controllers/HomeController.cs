@@ -2,10 +2,8 @@
 
 namespace lab12_brian.Controllers
 {
-//    [Route("Main")]
     public class HomeController : Controller
     {
-//        [Route("Home")]
         public string Index()
         {
             return "Welcome to the home page";

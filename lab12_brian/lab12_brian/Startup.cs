@@ -23,7 +23,7 @@ namespace lab12_brian
             }
             else
             {
-                app.UseExceptionHandler("Error/Wat");
+                app.UseExceptionHandler("/Error");
             }
 
             app.UseMvc(r =>

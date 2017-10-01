@@ -11,21 +11,23 @@ namespace lab12_brian.Controllers
     {
         public ViewResult Index()
         {
+
+            ViewBag.Welcome = "Here is a list of students";
+
             List<Student> students = new List<Student>();
 
-            students.Add(new Student { Name = "Brian", Program = "ASP.NET", StartYear = 2017, WatWorthy = true });
-            students.Add(new Student { Name = "Jon", Program = "Paython", StartYear = 2016, WatWorthy = true });
-            students.Add(new Student { Name = "Mike", Program = "JavaScript", StartYear = 2017, WatWorthy = false });
-            students.Add(new Student { Name = "Jane", Program = "Java Script", StartYear = 2016, WatWorthy = false });
-            students.Add(new Student { Name = "Amy", Program = "Java Script", StartYear = 2017, WatWorthy = true });
+            students.Add(new Student { Name = "Brian", Program = "ASP.NET", StartYear = 2017 });
+            students.Add(new Student { Name = "Jon", Program = "Paython", StartYear = 2016 });
+            students.Add(new Student { Name = "Mike", Program = "JavaScript", StartYear = 2017 });
+            students.Add(new Student { Name = "Jane", Program = "Java Script", StartYear = 2016 });
+            students.Add(new Student { Name = "Amy", Program = "Java Script", StartYear = 2017 });
 
-            ViewData["list"] = students;
-            return View("Index", students);
+            return View(students);
         }
-
+        [Route("Reg")]
         public string Registration(string student)
         {
-            return $"You entered {student}";
+            return ("Welcome to the registration page");
         }
     }
 }
