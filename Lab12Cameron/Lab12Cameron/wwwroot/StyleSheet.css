@@ -1,0 +1,22 @@
+﻿body {
+    background-color:maroon;
+    font-family: Calibri;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+tr {
+    padding: 10%;
+    margin-right: 50px;
+    /*border: 1px solid white;*/
+    align-content:center;
+}
+
+table{
+    margin: 0 auto;
+}
+
+td {
+    text-align:center;
+    margin: 100px;
+}
