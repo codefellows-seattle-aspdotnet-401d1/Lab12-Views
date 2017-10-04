@@ -1,0 +1,21 @@
+﻿@using lab12_brian.ViewModels
+@model List<lab12_brian.ViewModels.Student>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html>
+<head>
+<link rel="stylesheet" href="../../wwwroot/StyleSheet.css" type="text/css"/>
+</head>
+<body>
+@ViewBag.Welcome
+@foreach (var s in @Model)
+{
+    <p>@s.Name</p>
+}
+
+</body>
+</html>
+
